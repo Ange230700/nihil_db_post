@@ -1,3 +1,3 @@
-export declare const NUM_POSTS = 20;
-declare function seedPosts(skipCleanup?: boolean): Promise<void>;
-export default seedPosts;
+export declare const NUM_POSTS: number;
+export declare function seedPosts(skipCleanup?: boolean): Promise<void>;
+export default function seed(skipCleanup?: boolean): Promise<void>;
