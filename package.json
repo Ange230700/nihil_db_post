@@ -1,6 +1,6 @@
 {
   "name": "nihildbpost",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Post Service Database",
   "main": "dist/lib/client.js",
   "types": "dist/lib/client.d.ts",
@@ -32,6 +32,7 @@
     "lint": "eslint .",
     "build": "tsc -b",
     "clean": "rm -rf dist prisma/generated node_modules tsconfig.tsbuildinfo",
+    "prepublishOnly": "npm run prisma:generate",
     "prisma:generate": "prisma generate",
     "prisma:migrate:dev": "prisma migrate dev",
     "prisma:migrate:deploy": "prisma migrate deploy",
