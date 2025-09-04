@@ -1,3 +1,5 @@
+# nihil_databases\post\.husky\pre-push
+
 set -e
 echo "🧪 running tests before push…"
 npm run test

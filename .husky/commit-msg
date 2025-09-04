@@ -1,1 +1,3 @@
+# nihil_databases\post\.husky\commit-msg
+
 npx --no -- commitlint --edit "$1"

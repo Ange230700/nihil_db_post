@@ -18,8 +18,8 @@
       "options": { "command": "npm run clean", "cwd": "post" }
     },
     "prisma:generate": {
-      "command": "prisma generate",
-      "options": { "cwd": "post" }
+      "executor": "nx:run-commands",
+      "options": { "command": "prisma generate", "cwd": "post" }
     },
     "prisma:db:seed": {
       "executor": "nx:run-commands",

@@ -1,6 +1,4 @@
-# post\Dockerfile
-
-# post/Dockerfile
+# nihil_databases\post\Dockerfile
 
 # build stage
 FROM node:24-alpine3.21 AS build
@@ -18,4 +16,3 @@ ENV NODE_ENV=production
 COPY --from=build /app ./
 # DB URL passed at runtime
 CMD ["sh", "-lc", "npm run prisma:db:push --workspace=post && npm run prisma:db:seed --workspace=post && tail -f /dev/null"]
-

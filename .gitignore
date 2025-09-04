@@ -1,4 +1,4 @@
-# post\.gitignore
+# nihil_databases\post\.gitignore
 
 node_modules
 .DS_Store

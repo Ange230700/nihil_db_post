@@ -1,4 +1,4 @@
-<!-- post\README.md -->
+<!-- nihil_databases\post\README.md -->
 
 # Nihil Post Database Service
 
@@ -238,4 +238,4 @@ MIT License
 ## Contact
 
 **Ange KOUAKOU**
-[GitHub](https://github.com/your-username) • [Email](mailto:your.email@example.com)
+[GitHub](https://github.com/Ange230700) • [Email](mailto:kouakouangeericstephane@gmail.com)
